@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import RegistrationForm from './src/RegistrationForm';
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -84,3 +85,4 @@ const RegistrationForm = () => {
 };
 
 export default RegistrationForm;
+
